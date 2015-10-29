@@ -14,6 +14,7 @@
 		43DBF8011B705E35008CAAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DBF8001B705E35008CAAEB /* Images.xcassets */; };
 		43DBF8041B705E35008CAAEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43DBF8021B705E35008CAAEB /* LaunchScreen.xib */; };
 		43DBF8101B705E35008CAAEB /* BlockDemo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DBF80F1B705E35008CAAEB /* BlockDemo1Tests.m */; };
+		43DBF81B1B705E6C008CAAEB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DBF81A1B705E6C008CAAEB /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		43DBF8091B705E35008CAAEB /* BlockDemo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockDemo1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DBF80E1B705E35008CAAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43DBF80F1B705E35008CAAEB /* BlockDemo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo1Tests.m; sourceTree = "<group>"; };
+		43DBF8191B705E6C008CAAEB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		43DBF81A1B705E6C008CAAEB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		43DBF81D1B706329008CAAEB /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		43DBF7E71B705E34008CAAEB = {
 			isa = PBXGroup;
 			children = (
+				43DBF81C1B70630F008CAAEB /* PulicDefine */,
 				43DBF7F21B705E35008CAAEB /* BlockDemo1 */,
 				43DBF80C1B705E35008CAAEB /* BlockDemo1Tests */,
 				43DBF7F11B705E35008CAAEB /* Products */,
@@ -85,6 +90,8 @@
 				43DBF7F81B705E35008CAAEB /* AppDelegate.m */,
 				43DBF7FA1B705E35008CAAEB /* ViewController.h */,
 				43DBF7FB1B705E35008CAAEB /* ViewController.m */,
+				43DBF8191B705E6C008CAAEB /* SecondViewController.h */,
+				43DBF81A1B705E6C008CAAEB /* SecondViewController.m */,
 				43DBF7FD1B705E35008CAAEB /* Main.storyboard */,
 				43DBF8001B705E35008CAAEB /* Images.xcassets */,
 				43DBF8021B705E35008CAAEB /* LaunchScreen.xib */,
@@ -117,6 +124,15 @@
 				43DBF80E1B705E35008CAAEB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43DBF81C1B70630F008CAAEB /* PulicDefine */ = {
+			isa = PBXGroup;
+			children = (
+				43DBF81D1B706329008CAAEB /* PublicDefine.h */,
+			);
+			name = PulicDefine;
+			path = BlockDemo1/PulicDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DBF81B1B705E6C008CAAEB /* SecondViewController.m in Sources */,
 				43DBF7FC1B705E35008CAAEB /* ViewController.m in Sources */,
 				43DBF7F91B705E35008CAAEB /* AppDelegate.m in Sources */,
 				43DBF7F61B705E35008CAAEB /* main.m in Sources */,
